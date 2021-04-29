@@ -1,0 +1,26 @@
+QDateEdit{
+    background-color: #323232;
+    color: #b4b4b4;
+    Border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    
+
+}
+QDateEdit::drop-down {
+    width: 40px;
+    Border: 0px;
+}
+
+QDateEdit::down-arrow{
+    image: url(UI_graphics/arrow.png);
+    width: 20px;
+    height: 20px;
+}
+QDateEdit QAbstractItemView:enabled {
+    color: white;
+    background-color: #1c1c1c;
+    selection-background-color: white;
+    selection-color: #152c45;
+    alternate-background-color: #6D6D6D;
+}

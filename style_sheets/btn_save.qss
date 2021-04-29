@@ -1,0 +1,14 @@
+QPushButton#btn_save {
+    background-color: rgb(50, 50, 50);
+    color: rgb(180, 180, 180);
+    border-radius:10px;
+    font: bold 18px;
+}
+QPushButton#btn_save:hover {
+    background-color:#1ea827;
+    color: white;
+}
+QPushButton#btn_save:pressed {
+    background-color: #5aa81e;
+    color: #727272;
+}
